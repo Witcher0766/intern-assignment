@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+  .nav-item a {
+    font-weight: 900;
+    font-size: 25px;
+    color: #130f40;
+  }
+
+
+
+  .bg-white-smoke {
+    background-color: whitesmoke;
+  }
+
+  nav {
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+  }
+
+  
+  .btn-prof {
+    margin-left: 15px;
+    /* padding: 5px; */
+    min-width: 10%;
+    border-radius: 50%;
+  }
+
+
+  .icon{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0px 10px 0px 50px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+
+  .icon:hover {
+    color: grey;
+  }
+
+
+  .main-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    /* padding-top: 10px; */
+
+    margin-bottom: 50px;
+  }
+
+
+  .left {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: whitesmoke;
+    height: 60vh;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+
+  .left button {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin: 5px 0px 5px 0px;
+    font-size: 15px;
+  }
+  
+  .sub-container {
+    width: 40%;
+    /* display: flex;
+    flex-direction: column; */
+    /* text-align: left; */
+    /* background-color: whitesmoke;
+    padding: 5px; */
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    gap: 5rem;
+  }
+  .middle {
+    /* width: 40%; */
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: whitesmoke;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+
+
+  .posts-icon {
+    display: flex;
+    color: brown;
+  }
+  .first {
+    margin: 0px 10px 0px 10px;
+  }
+
+  .posts h2 {
+    text-align: center;
+    color: #0984e3;
+    font-weight: 900;
+  }
+
+  .posts img {
+    width: 100%;
+    height: 60vh;
+    padding: 10px;
+    
+  }
+
+  .posts p {
+    padding: 0px 10px 0px 10px;
+    font-size: 17px;
+  }
+
+  .icons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    padding: 10px 0px 0px 0px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+  .icons i:first-child {
+    color: #74b9ff;
+  }
+
+  .icons i:nth-child(2) {
+    color: red;
+  }
+
+  .icons i:nth-child(3){
+    color: green;
+  }
+  .icons i:last-child {
+    color: brown;
+  }
+  .icons i {
+    font-size: 25px;
+    cursor: pointer;
+    transition: all 0.3s;
+    padding-bottom: 10px;
+  }
+
+
+  .icons i:hover {
+    color: gray
+  }
+
+
+
+  .right {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .first-box {
+    background-color: whitesmoke;
+    padding: 5px 15px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .first-box ul {
+    height: 20vh;
+    overflow: auto;
+    background-color: white;
+  }
+  .first-box h3 {
+    text-align: center;
+    color: #0984e3;
+    font-weight: 900;
+  }
+
+  .first-box li {
+    list-style: none;
+    font-size: 20px;
+  }
+  
+  .second-box {
+    background-color: whitesmoke;
+    padding: 5px 15px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  }
+
+  .second-box ul {
+    height: 20vh;
+    overflow: auto;
+    background-color: white;
+  }
+  .second-box h3 {
+    text-align: center;
+    color: #0984e3;
+    font-weight: 900;
+  }
+
+  .second-box li {
+    list-style: none;
+    font-size: 20px;
+  }
+
+
+
+
+
+  /* responsive  */
+
+  @media screen and (max-width: 869px) {
+
+    .main-container {
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .left {
+      width: 70%;
+      margin: auto;
+      margin-bottom: 50px;
+    }
+
+    .sub-container {
+      width: 70%;
+      margin: auto;
+    }
+
+    .right {
+      width: 70%;
+      margin: auto;
+      margin-top: 50px;
+    }
+
+
+    .first-box ul {
+      height: 40vh;
+    }
+
+    .second-box ul {
+      height: 40vh;
+    }
+    
+  }
+
+
+  @media screen and (max-width: 377px) {
+
+    .left {
+      width: 90%;
+    }
+
+    .sub-container {
+      width: 90%;
+    }
+
+    .right {
+      width: 90%;
+    }
+
+
+    .posts img {
+      height: 40vh;
+      
+    }
+    
+  }
